@@ -1,0 +1,28 @@
+.block { /*main block*/
+	background-position: top left;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	position: relative;
+}
+.blue, .red, .yellow { /*option indoor blocks*/
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.blue { /*blue block*/
+	background: #0000ff;
+	top: 0;
+	left: 0;
+}
+.red { /*red block*/
+	background: #ff0000;
+	top: 100px;
+	left: 100px;
+}
+.yellow { /*yellow block*/
+	background: #ffff00;
+	top: 200px;
+	right: 0;
+	/*float: right;*/
+}
